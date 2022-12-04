@@ -24,7 +24,10 @@ npm run build
 
 ```bash
 # npm
-npm run test 
+npm run test
+
+# coverage
+npm run coverage 
 ```
 
 ## Support
