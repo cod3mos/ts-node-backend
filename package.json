@@ -6,11 +6,16 @@
   "source": "./lib",
   "types": "./lib/index.d.ts",
   "scripts": {
+    "test": "jest",
     "build": "tsc",
-    "test": "npx jest",
-    "install": "tsc"
+    "install": "tsc",
+    "coverage": "jest --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "node",
+    "backend"
+  ],
   "author": "Dione Carlos <contato@codemos.com.br>",
   "license": "MIT",
   "dependencies": {
