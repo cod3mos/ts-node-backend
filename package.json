@@ -1,6 +1,6 @@
 {
   "name": "ts-node-backend",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typescript Node Backend (dc-node-backend) is a framework/lib based on Node.js, written with TypeScript for creating server-side Apps/Servers.",
   "main": "./lib/index.js",
   "source": "./lib",
