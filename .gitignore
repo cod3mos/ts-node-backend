@@ -1,6 +1,5 @@
 # Node artifact files
 node_modules/
-dist/
 
 # Compiled Java class files
 *.class
@@ -45,8 +44,8 @@ Thumbs.db
 *.mov
 *.wmv
 
-# Environment Variables
-.env
-
-# Ignore Coverage Folder
+# Ignore coverage folder
 coverage/
+
+# Ignore lib folder
+lib/
