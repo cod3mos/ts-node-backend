@@ -3,7 +3,7 @@ import { AxiosClient } from './axios'
 import { ProvidersEnum } from './providers-enum'
 
 export class ProviderFactory {
-  static getInstance (providers: ProvidersEnum): API {
+  static getInstance (providers: ProvidersEnum = ProvidersEnum.AXIOS): API {
     switch (providers) {
       case ProvidersEnum.AXIOS:
         return new AxiosClient()
