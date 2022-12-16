@@ -8,16 +8,15 @@ export type QueryParams = Record<string, any>
 export abstract class APIRequest<QueryParams> {
   protected query: Record<string, any> = {}
 
+  constructor (params?: Record<string, any>) {
+    this.query = params ?? {}
+  }
+
   abstract getUrl (): string
   abstract getMethod (): HttpMethodEnum
 
   hasPayload (): boolean {
     return false
-  }
-
-  setQueryParams (values: Record<string, any>): APIRequest<QueryParams> {
-    this.query = values
-    return this
   }
 
   getQueryString (): string {
