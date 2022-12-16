@@ -19,6 +19,7 @@
   "author": "Dione Carlos <contato@codemos.com.br>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.2.1",
     "npm": "^8.19.2"
   },
   "devDependencies": {
