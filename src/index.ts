@@ -1,5 +1,5 @@
 export { Application, Bootstrap, Process } from './application'
-export { ErrorException, NotFoundErrorException, NotImplementYetErrorException } from './common/exceptions'
+export { AlreadyExistsException, ErrorException, NotFoundErrorException, NotImplementYetErrorException } from './common/exceptions'
 export { API, APIConfig, APIRequest, APIRequestPayload, APIResponse, PaginationQueryParams, QueryParams, SortPaginationQueryParams } from './common/http/api'
 export { HttpMethodEnum } from './common/http/protocols/http-method-enum'
 export { AxiosClient, AxiosClientResponse, ProviderFactory, ProvidersEnum } from './common/http/providers'
